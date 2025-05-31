@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Firebase App (core) -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+
+    <!-- Firebase Firestore -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Notes</title>
+  </head>
+  <body>
+    <h1>Hey jaanu, you can send me notes</h1>
+
+    <div class="container">
+      <form action="" id="noteForm">
+        <label for="title">Title:</label> <br />
+        <input type="text" id="title" name="title" value="" /><br />
+        <label for="note">Note:</label><br />
+        <input type="text" id="note" name="note" value="" /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+
+  <script src="notes.js"></script>
+</html>
