@@ -39,12 +39,22 @@ input[type=submit]{
     border-radius: 10px;
 }
 
-
 input{
     font-family: Arial, Helvetica, sans-serif
 }
 
 #note{
     height: 60%;
+}
+
+
+.gif-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.tenor-gif-embed {
+  max-width: 100%;
 }
 
